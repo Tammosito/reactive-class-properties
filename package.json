@@ -6,7 +6,7 @@
   "module": "dist/reactive-class-properties.es.js",
   "main": "dist/reactive-class-properties.js",
   "umd:main": "dist/reactive-class-properties.umd.js",
-  "typings": "index.d.ts",
+  "typings": "dist/index.d.ts",
   "scripts": {
     "build": "microbundle -o dist/",
     "dev": "microbundle watch -o dist/ --compress false",
@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Tammosito/reactive-class-properties.git"
+    "url": "git+https://github.com/tammosito/reactive-class-properties.git"
   },
   "author": "Tammo Boehme",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Tammosito/reactive-class-properties/issues"
+    "url": "https://github.com/tammosito/reactive-class-properties/issues"
   },
-  "homepage": "https://github.com/Tammosito/reactive-class-properties#readme",
+  "homepage": "https://github.com/tammosito/reactive-class-properties#readme",
   "devDependencies": {
     "microbundle": "^0.9.0",
     "rxjs": "^6.0.0"
